@@ -2,7 +2,7 @@
 double func(double x,double y);
 int main(void)
 {double a=100,b,p;
-printf("输如一个值:");
+printf("输入一个值:");
 scanf("%lf",&b);
 p=func(a,b);
 printf("结果是%lf.\n",p);
